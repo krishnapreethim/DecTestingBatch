@@ -55,7 +55,7 @@ public class OrnageHRMTest {
 		
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 1, enabled= true)
 	public void loginTestScript() {
 		
 		OrangeHRMLogin login= new OrangeHRMLogin(driver);
